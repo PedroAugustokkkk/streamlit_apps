@@ -26,6 +26,7 @@ with col4:
     if st.button("Dividir"):
         resultado = divisao(num1, num2)
 
-# Exiba o resultado
 if resultado is not None:
     st.success(f"O resultado é: {resultado}")
+
+st.image("bahia.jpg")
